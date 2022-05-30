@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JDa-zy-5Aj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="HousieGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="BZy-2r-Ow0">
+                                <rect key="frame" x="12" y="502" width="390" height="374"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K0p-Cn-QaZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="181"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ticket - 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzI-cN-go5">
+                                                <rect key="frame" x="3" y="3" width="384" height="32"/>
+                                                <color key="backgroundColor" name="bgColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="32" id="ITE-ud-qp1"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="15"/>
+                                                <color key="textColor" name="fgColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qAT-QC-WLw">
+                                                <rect key="frame" x="3" y="38" width="384" height="140"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="nwF-QT-9hy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="384" height="45"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiK-51-Utb">
+                                                                <rect key="frame" x="0.0" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uu1-BI-TMh">
+                                                                <rect key="frame" x="43" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WZ-S6-GcO">
+                                                                <rect key="frame" x="85.5" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agq-pC-K0b">
+                                                                <rect key="frame" x="128.5" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMU-Iw-aQE">
+                                                                <rect key="frame" x="171" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zjg-vp-yDm">
+                                                                <rect key="frame" x="214" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krh-kt-1C6">
+                                                                <rect key="frame" x="256.5" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcf-m8-Xgu">
+                                                                <rect key="frame" x="299.5" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyr-GC-Hcw">
+                                                                <rect key="frame" x="342" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="inz-vY-jQh">
+                                                        <rect key="frame" x="0.0" y="45" width="384" height="1"/>
+                                                        <color key="backgroundColor" name="fgColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="K13-lP-8w2"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="t3f-5g-rnB">
+                                                        <rect key="frame" x="0.0" y="46" width="384" height="46.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1L8-Mg-hUc">
+                                                                <rect key="frame" x="0.0" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDG-wk-Bnt">
+                                                                <rect key="frame" x="43" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQ2-gQ-xda">
+                                                                <rect key="frame" x="85.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gob-5g-wm7">
+                                                                <rect key="frame" x="128.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l46-tt-YZj">
+                                                                <rect key="frame" x="171" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZt-Pb-umQ">
+                                                                <rect key="frame" x="214" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cx-x1-mKf">
+                                                                <rect key="frame" x="256.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bb-Gz-btr">
+                                                                <rect key="frame" x="299.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2d-vT-6zN">
+                                                                <rect key="frame" x="342" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udC-d0-xlW">
+                                                        <rect key="frame" x="0.0" y="92.5" width="384" height="1"/>
+                                                        <color key="backgroundColor" name="fgColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="jtp-mp-kFS"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="teo-aj-UW9">
+                                                        <rect key="frame" x="0.0" y="93.5" width="384" height="46.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRT-JF-OD4">
+                                                                <rect key="frame" x="0.0" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWe-EI-T1O">
+                                                                <rect key="frame" x="43" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0G-2C-PTj">
+                                                                <rect key="frame" x="85.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6r-TJ-uBk">
+                                                                <rect key="frame" x="128.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bK-qC-x0M">
+                                                                <rect key="frame" x="171" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2PP-3f-AN4">
+                                                                <rect key="frame" x="214" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0S-Cl-v09">
+                                                                <rect key="frame" x="256.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNx-Ye-k2u">
+                                                                <rect key="frame" x="299.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsf-jW-7CT">
+                                                                <rect key="frame" x="342" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="tiK-51-Utb" firstAttribute="height" secondItem="qAT-QC-WLw" secondAttribute="height" multiplier="0.33" constant="-1" id="8Q6-yC-1kk"/>
+                                                    <constraint firstItem="1L8-Mg-hUc" firstAttribute="height" secondItem="qAT-QC-WLw" secondAttribute="height" multiplier="0.33" id="fBL-s9-Hc2"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="fgColor"/>
+                                        <accessibility key="accessibilityConfiguration" label="Ticket1 Wrapper"/>
+                                        <constraints>
+                                            <constraint firstItem="qAT-QC-WLw" firstAttribute="leading" secondItem="K0p-Cn-QaZ" secondAttribute="leading" constant="3" id="ULf-gB-eDA"/>
+                                            <constraint firstItem="nzI-cN-go5" firstAttribute="top" secondItem="K0p-Cn-QaZ" secondAttribute="top" constant="3" id="V0U-En-12d"/>
+                                            <constraint firstAttribute="trailing" secondItem="nzI-cN-go5" secondAttribute="trailing" constant="3" id="cv6-ok-2Gk"/>
+                                            <constraint firstAttribute="trailing" secondItem="qAT-QC-WLw" secondAttribute="trailing" constant="3" id="lSS-fP-FE9"/>
+                                            <constraint firstItem="qAT-QC-WLw" firstAttribute="top" secondItem="nzI-cN-go5" secondAttribute="bottom" constant="3" id="uDO-tS-6EA"/>
+                                            <constraint firstAttribute="bottom" secondItem="qAT-QC-WLw" secondAttribute="bottom" constant="3" id="vTc-fy-ngc"/>
+                                            <constraint firstItem="nzI-cN-go5" firstAttribute="leading" secondItem="K0p-Cn-QaZ" secondAttribute="leading" constant="3" id="yBP-5C-NW5"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBj-en-jqZ">
+                                        <rect key="frame" x="0.0" y="193" width="390" height="181"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ticket - 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ai-5D-5Xi">
+                                                <rect key="frame" x="3" y="3" width="384" height="32"/>
+                                                <color key="backgroundColor" name="bgColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="32" id="GsT-CJ-zkf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="15"/>
+                                                <color key="textColor" name="fgColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SPm-kg-iJs">
+                                                <rect key="frame" x="3" y="38" width="384" height="140"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="c9C-KU-PzW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="384" height="45"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KF-6a-9Kl">
+                                                                <rect key="frame" x="0.0" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziw-AU-1nl">
+                                                                <rect key="frame" x="43" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9C-Ey-6yD">
+                                                                <rect key="frame" x="85.5" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5n-RG-6Je">
+                                                                <rect key="frame" x="128.5" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SI-Hu-nt9">
+                                                                <rect key="frame" x="171" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXt-23-rdH">
+                                                                <rect key="frame" x="214" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2eT-hY-EF4">
+                                                                <rect key="frame" x="256.5" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwD-TT-wjN">
+                                                                <rect key="frame" x="299.5" y="0.0" width="41.5" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l95-kB-P0H">
+                                                                <rect key="frame" x="342" y="0.0" width="42" height="45"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vs-6C-bku">
+                                                        <rect key="frame" x="0.0" y="45" width="384" height="1"/>
+                                                        <color key="backgroundColor" name="fgColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="YOl-nW-Rer"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="AEb-a0-Qvt">
+                                                        <rect key="frame" x="0.0" y="46" width="384" height="46.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knV-lO-Kzt">
+                                                                <rect key="frame" x="0.0" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3g-AJ-OAh">
+                                                                <rect key="frame" x="43" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Io3-rR-JKb">
+                                                                <rect key="frame" x="85.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8db-8t-t6B">
+                                                                <rect key="frame" x="128.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaU-Eo-2r1">
+                                                                <rect key="frame" x="171" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcO-uK-5zh">
+                                                                <rect key="frame" x="214" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T81-vg-Xrz">
+                                                                <rect key="frame" x="256.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K58-04-yYN">
+                                                                <rect key="frame" x="299.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAY-C4-8CQ">
+                                                                <rect key="frame" x="342" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eI8-1R-GCH">
+                                                        <rect key="frame" x="0.0" y="92.5" width="384" height="1"/>
+                                                        <color key="backgroundColor" name="fgColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="cNC-Sq-kE7"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="CJo-fn-blz">
+                                                        <rect key="frame" x="0.0" y="93.5" width="384" height="46.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRX-f4-4Qc">
+                                                                <rect key="frame" x="0.0" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqE-Ss-b1B">
+                                                                <rect key="frame" x="43" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFj-DE-ijC">
+                                                                <rect key="frame" x="85.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiP-Vb-tkT">
+                                                                <rect key="frame" x="128.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Nv-nU-orH">
+                                                                <rect key="frame" x="171" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgZ-Rq-tfQ">
+                                                                <rect key="frame" x="214" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JS9-Hj-cUc">
+                                                                <rect key="frame" x="256.5" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSJ-yX-hcf">
+                                                                <rect key="frame" x="299.5" y="0.0" width="41.5" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCe-Wc-8uH">
+                                                                <rect key="frame" x="342" y="0.0" width="42" height="46.5"/>
+                                                                <color key="backgroundColor" name="bgColor"/>
+                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="14"/>
+                                                                <color key="textColor" name="fgColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="knV-lO-Kzt" firstAttribute="height" secondItem="SPm-kg-iJs" secondAttribute="height" multiplier="0.33" id="RlG-gx-qSw"/>
+                                                    <constraint firstItem="2KF-6a-9Kl" firstAttribute="height" secondItem="SPm-kg-iJs" secondAttribute="height" multiplier="0.33" constant="-1" id="nwT-vp-3r7"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="fgColor"/>
+                                        <accessibility key="accessibilityConfiguration" label="Ticket1 Wrapper"/>
+                                        <constraints>
+                                            <constraint firstItem="SPm-kg-iJs" firstAttribute="top" secondItem="4ai-5D-5Xi" secondAttribute="bottom" constant="3" id="0SQ-47-asR"/>
+                                            <constraint firstItem="SPm-kg-iJs" firstAttribute="leading" secondItem="wBj-en-jqZ" secondAttribute="leading" constant="3" id="8vu-nU-AXu"/>
+                                            <constraint firstAttribute="trailing" secondItem="SPm-kg-iJs" secondAttribute="trailing" constant="3" id="9M6-jG-cqu"/>
+                                            <constraint firstAttribute="bottom" secondItem="SPm-kg-iJs" secondAttribute="bottom" constant="3" id="D0U-Md-Nbp"/>
+                                            <constraint firstAttribute="trailing" secondItem="4ai-5D-5Xi" secondAttribute="trailing" constant="3" id="YfO-b9-gdy"/>
+                                            <constraint firstItem="4ai-5D-5Xi" firstAttribute="top" secondItem="wBj-en-jqZ" secondAttribute="top" constant="3" id="hxL-JU-Kay"/>
+                                            <constraint firstItem="4ai-5D-5Xi" firstAttribute="leading" secondItem="wBj-en-jqZ" secondAttribute="leading" constant="3" id="poE-G8-fbD"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SCT-bO-hwk">
+                                <rect key="frame" x="12" y="56" width="402" height="262"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VzQ-aA-ddl">
+                                        <rect key="frame" x="122.5" y="0.0" width="157" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="spH-OE-szj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="25"/>
+                                        <color key="textColor" name="fgColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="KzH-CM-9ZW">
+                                        <rect key="frame" x="97.5" y="50" width="207" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW3-ZO-LxX" userLabel="First House">
+                                                <rect key="frame" x="0.0" y="0.0" width="91" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="First House">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O0b-qo-ESt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBG-HH-1oa" userLabel="Second House">
+                                                <rect key="frame" x="103" y="0.0" width="104" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="Second House">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yhs-4O-ofm"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="H09-ay-4kt"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="k05-Op-Iq2">
+                                        <rect key="frame" x="79.5" y="94" width="243" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dxc-aV-jBc" userLabel="1st Row">
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="1st Row">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HUr-Uy-70H"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVu-k9-SRj" userLabel="2nd Row">
+                                                <rect key="frame" x="83" y="0.0" width="75" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="2nd Row">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLi-VM-4dY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2a-Yl-w15" userLabel="3rd Row">
+                                                <rect key="frame" x="170" y="0.0" width="73" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="3rd Row">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ICX-g9-HMi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="Dgb-Pt-bNC"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="cUV-A7-9bf">
+                                        <rect key="frame" x="79.5" y="138" width="243" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZR-VA-p1e" userLabel="4th Row">
+                                                <rect key="frame" x="0.0" y="0.0" width="73" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="4th Row">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0L-Qw-lm5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttT-gz-Mb4" userLabel="5th Row">
+                                                <rect key="frame" x="85" y="0.0" width="73" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="5th Row">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DMr-kS-lKk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeq-KA-r39" userLabel="6th Row">
+                                                <rect key="frame" x="170" y="0.0" width="73" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="6th Row">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QJj-zT-HDa"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="b6Z-lC-N8o"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="sPK-11-KoQ">
+                                        <rect key="frame" x="86" y="182" width="230" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehv-0m-Dz3" userLabel="Breakfast">
+                                                <rect key="frame" x="0.0" y="0.0" width="81" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="Breakfast">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HgQ-Id-EIf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soe-Np-noq" userLabel="Lunch">
+                                                <rect key="frame" x="93" y="0.0" width="61" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="Lunch">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0IP-1b-Bxg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7a-Z0-otm" userLabel="Dinner">
+                                                <rect key="frame" x="166" y="0.0" width="64" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="Dinner">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c31-XJ-07g"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="XDj-CZ-Bei"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="MLy-gI-OoO">
+                                        <rect key="frame" x="93" y="226" width="216" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ux-US-7h8" userLabel="Early X">
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="Early X">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dfH-lm-Dq1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9v-uL-dG9" userLabel="BP">
+                                                <rect key="frame" x="80" y="0.0" width="40" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="BP">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4j-Tr-Iva"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuK-P3-AbF" userLabel="I Love You">
+                                                <rect key="frame" x="132" y="0.0" width="84" height="36"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="12"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="I Love You">
+                                                    <color key="titleColor" red="0.054217143268445345" green="0.12953505110411984" blue="0.14005339598406719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="markLost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gQe-Ys-818"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="C6m-Dg-JNa"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="bgColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BZy-2r-Ow0" secondAttribute="trailing" constant="12" id="2t0-Ok-o9A"/>
+                            <constraint firstAttribute="bottom" secondItem="BZy-2r-Ow0" secondAttribute="bottom" constant="20" id="3Hw-NB-avs">
+                                <variation key="heightClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="SCT-bO-hwk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="4kH-XT-Qdq"/>
+                            <constraint firstItem="wBj-en-jqZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.36" constant="32" id="H3C-Zx-kzL"/>
+                            <constraint firstItem="BZy-2r-Ow0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="gv4-Te-q3I"/>
+                            <constraint firstItem="SCT-bO-hwk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="i53-o8-fak"/>
+                            <constraint firstItem="K0p-Cn-QaZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.36" constant="32" id="zbc-EM-Nlc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SCT-bO-hwk" secondAttribute="trailing" id="zcv-Xc-ZhU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blocksRowStackView" destination="sPK-11-KoQ" id="28O-tt-Q8E"/>
+                        <outlet property="bpButton" destination="p9v-uL-dG9" id="BZz-8F-AOm"/>
+                        <outlet property="breakfastButton" destination="Ehv-0m-Dz3" id="m4g-ZC-gw0"/>
+                        <outlet property="dinnerButton" destination="N7a-Z0-otm" id="oT9-LF-9YR"/>
+                        <outlet property="earlyXButton" destination="4ux-US-7h8" id="2V2-zl-zja"/>
+                        <outlet property="fifthRowButton" destination="ttT-gz-Mb4" id="Qv9-1C-nQp"/>
+                        <outlet property="firstHouseButton" destination="IW3-ZO-LxX" id="rIp-uk-ox7"/>
+                        <outlet property="firstRowButton" destination="Dxc-aV-jBc" id="nWp-IW-JlY"/>
+                        <outlet property="fourthRowButton" destination="JZR-VA-p1e" id="4eJ-us-Uzg"/>
+                        <outlet property="fourthRowStackView" destination="cUV-A7-9bf" id="ERp-5T-Aif"/>
+                        <outlet property="iLoveYouButton" destination="kuK-P3-AbF" id="eGD-pd-xcN"/>
+                        <outlet property="lunchButton" destination="soe-Np-noq" id="dkY-nB-EIG"/>
+                        <outlet property="secondHouseButton" destination="VBG-HH-1oa" id="0ty-uQ-ehp"/>
+                        <outlet property="secondRowButton" destination="RVu-k9-SRj" id="hV5-Fb-KJr"/>
+                        <outlet property="secondTicketWrapper" destination="wBj-en-jqZ" id="4AL-IO-qRq"/>
+                        <outlet property="sixthRowButton" destination="aeq-KA-r39" id="RsX-Wl-I82"/>
+                        <outlet property="thirdRowButton" destination="O2a-Yl-w15" id="Jd0-lk-5qR"/>
+                        <outletCollection property="ticket2FrLabels" destination="2KF-6a-9Kl" collectionClass="NSMutableArray" id="3sF-Dm-j2u"/>
+                        <outletCollection property="ticket2FrLabels" destination="ziw-AU-1nl" collectionClass="NSMutableArray" id="Xtf-Km-7lY"/>
+                        <outletCollection property="ticket2FrLabels" destination="o9C-Ey-6yD" collectionClass="NSMutableArray" id="Orn-um-d1v"/>
+                        <outletCollection property="ticket2FrLabels" destination="j5n-RG-6Je" collectionClass="NSMutableArray" id="8AF-LG-8xT"/>
+                        <outletCollection property="ticket2FrLabels" destination="5SI-Hu-nt9" collectionClass="NSMutableArray" id="LBE-Ge-8CQ"/>
+                        <outletCollection property="ticket2FrLabels" destination="DXt-23-rdH" collectionClass="NSMutableArray" id="Ph9-CL-690"/>
+                        <outletCollection property="ticket2FrLabels" destination="2eT-hY-EF4" collectionClass="NSMutableArray" id="TYF-2l-aA8"/>
+                        <outletCollection property="ticket2FrLabels" destination="CwD-TT-wjN" collectionClass="NSMutableArray" id="gug-Bq-Pdl"/>
+                        <outletCollection property="ticket2FrLabels" destination="l95-kB-P0H" collectionClass="NSMutableArray" id="ptj-MP-XW4"/>
+                        <outletCollection property="ticket2SrLabels" destination="knV-lO-Kzt" collectionClass="NSMutableArray" id="BeL-FH-hdC"/>
+                        <outletCollection property="ticket2SrLabels" destination="S3g-AJ-OAh" collectionClass="NSMutableArray" id="g4a-Ok-yD6"/>
+                        <outletCollection property="ticket2SrLabels" destination="Io3-rR-JKb" collectionClass="NSMutableArray" id="7Bn-rb-g3h"/>
+                        <outletCollection property="ticket2SrLabels" destination="8db-8t-t6B" collectionClass="NSMutableArray" id="P86-DO-1a1"/>
+                        <outletCollection property="ticket2SrLabels" destination="NaU-Eo-2r1" collectionClass="NSMutableArray" id="31g-aH-gj9"/>
+                        <outletCollection property="ticket2SrLabels" destination="LcO-uK-5zh" collectionClass="NSMutableArray" id="Bjc-Pn-oss"/>
+                        <outletCollection property="ticket2SrLabels" destination="T81-vg-Xrz" collectionClass="NSMutableArray" id="IMO-Px-Mlx"/>
+                        <outletCollection property="ticket2SrLabels" destination="K58-04-yYN" collectionClass="NSMutableArray" id="tfk-Qh-FPM"/>
+                        <outletCollection property="ticket2SrLabels" destination="NAY-C4-8CQ" collectionClass="NSMutableArray" id="ebU-75-vuK"/>
+                        <outletCollection property="ticket2TrLabels" destination="mRX-f4-4Qc" collectionClass="NSMutableArray" id="lCl-oe-gmv"/>
+                        <outletCollection property="ticket2TrLabels" destination="lqE-Ss-b1B" collectionClass="NSMutableArray" id="gPf-Qk-QwB"/>
+                        <outletCollection property="ticket2TrLabels" destination="OFj-DE-ijC" collectionClass="NSMutableArray" id="URv-wE-OgI"/>
+                        <outletCollection property="ticket2TrLabels" destination="YiP-Vb-tkT" collectionClass="NSMutableArray" id="Yyp-AM-vyG"/>
+                        <outletCollection property="ticket2TrLabels" destination="6Nv-nU-orH" collectionClass="NSMutableArray" id="IfA-kk-0tG"/>
+                        <outletCollection property="ticket2TrLabels" destination="RgZ-Rq-tfQ" collectionClass="NSMutableArray" id="3hz-0o-EyG"/>
+                        <outletCollection property="ticket2TrLabels" destination="JS9-Hj-cUc" collectionClass="NSMutableArray" id="c4E-Ax-v85"/>
+                        <outletCollection property="ticket2TrLabels" destination="XSJ-yX-hcf" collectionClass="NSMutableArray" id="kQt-e0-xYc"/>
+                        <outletCollection property="ticket2TrLabels" destination="fCe-Wc-8uH" collectionClass="NSMutableArray" id="Xmi-Ni-vyG"/>
+                        <outletCollection property="firstRowLabels" destination="tiK-51-Utb" collectionClass="NSMutableArray" id="obV-JA-rFT"/>
+                        <outletCollection property="firstRowLabels" destination="Uu1-BI-TMh" collectionClass="NSMutableArray" id="MlC-oe-pUm"/>
+                        <outletCollection property="firstRowLabels" destination="7WZ-S6-GcO" collectionClass="NSMutableArray" id="dSv-ai-Wis"/>
+                        <outletCollection property="firstRowLabels" destination="agq-pC-K0b" collectionClass="NSMutableArray" id="Zoa-eZ-s1Q"/>
+                        <outletCollection property="firstRowLabels" destination="YMU-Iw-aQE" collectionClass="NSMutableArray" id="fYG-ij-MfX"/>
+                        <outletCollection property="firstRowLabels" destination="Zjg-vp-yDm" collectionClass="NSMutableArray" id="9CR-a5-5yd"/>
+                        <outletCollection property="firstRowLabels" destination="Krh-kt-1C6" collectionClass="NSMutableArray" id="vDw-v3-BSF"/>
+                        <outletCollection property="firstRowLabels" destination="mcf-m8-Xgu" collectionClass="NSMutableArray" id="NW6-Xn-EAt"/>
+                        <outletCollection property="firstRowLabels" destination="Kyr-GC-Hcw" collectionClass="NSMutableArray" id="JJ9-wX-KtX"/>
+                        <outletCollection property="secondRowLabels" destination="1L8-Mg-hUc" collectionClass="NSMutableArray" id="QQQ-Dq-cG4"/>
+                        <outletCollection property="secondRowLabels" destination="aDG-wk-Bnt" collectionClass="NSMutableArray" id="ZkL-yn-ISp"/>
+                        <outletCollection property="secondRowLabels" destination="PQ2-gQ-xda" collectionClass="NSMutableArray" id="kye-mj-CAV"/>
+                        <outletCollection property="secondRowLabels" destination="Gob-5g-wm7" collectionClass="NSMutableArray" id="VHG-5C-sPj"/>
+                        <outletCollection property="secondRowLabels" destination="l46-tt-YZj" collectionClass="NSMutableArray" id="g1t-gy-w6K"/>
+                        <outletCollection property="secondRowLabels" destination="vZt-Pb-umQ" collectionClass="NSMutableArray" id="cSX-vz-iLQ"/>
+                        <outletCollection property="secondRowLabels" destination="4cx-x1-mKf" collectionClass="NSMutableArray" id="MYN-o6-anF"/>
+                        <outletCollection property="secondRowLabels" destination="7Bb-Gz-btr" collectionClass="NSMutableArray" id="L0F-mD-bQJ"/>
+                        <outletCollection property="secondRowLabels" destination="X2d-vT-6zN" collectionClass="NSMutableArray" id="21i-Ks-0Nw"/>
+                        <outletCollection property="thirdRowLabels" destination="dRT-JF-OD4" collectionClass="NSMutableArray" id="sRO-HH-LMa"/>
+                        <outletCollection property="thirdRowLabels" destination="PWe-EI-T1O" collectionClass="NSMutableArray" id="D2R-fM-556"/>
+                        <outletCollection property="thirdRowLabels" destination="P0G-2C-PTj" collectionClass="NSMutableArray" id="8Y8-ls-4Bb"/>
+                        <outletCollection property="thirdRowLabels" destination="q6r-TJ-uBk" collectionClass="NSMutableArray" id="aac-pF-Qxw"/>
+                        <outletCollection property="thirdRowLabels" destination="6bK-qC-x0M" collectionClass="NSMutableArray" id="RIv-3A-ypr"/>
+                        <outletCollection property="thirdRowLabels" destination="2PP-3f-AN4" collectionClass="NSMutableArray" id="jRT-uE-i7M"/>
+                        <outletCollection property="thirdRowLabels" destination="l0S-Cl-v09" collectionClass="NSMutableArray" id="6wV-dR-7hk"/>
+                        <outletCollection property="thirdRowLabels" destination="jNx-Ye-k2u" collectionClass="NSMutableArray" id="fxn-Jv-xQZ"/>
+                        <outletCollection property="thirdRowLabels" destination="xsf-jW-7CT" collectionClass="NSMutableArray" id="v2s-3U-36K"/>
+                        <segue destination="kxD-Ra-Ax7" kind="presentation" identifier="showResult" id="lNu-GA-dVb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592.5233644859811" y="-585.09719222462206"/>
+        </scene>
+        <!--Game Config View Controller-->
+        <scene sceneID="ohP-I9-syf">
+            <objects>
+                <viewController id="JDa-zy-5Aj" customClass="GameConfigViewController" customModule="HousieGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ovx-8R-1m7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="Wq8-ZH-r1v">
+                                <rect key="frame" x="0.0" y="94" width="414" height="137"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5pD-Jh-a3P">
+                                        <rect key="frame" x="114.5" y="0.0" width="185" height="32"/>
+                                        <color key="backgroundColor" name="bgColor"/>
+                                        <segments>
+                                            <segment title="One Ticket"/>
+                                            <segment title="Two Tickets"/>
+                                        </segments>
+                                        <color key="selectedSegmentTintColor" name="fgColor"/>
+                                        <connections>
+                                            <action selector="onNumTicketsChanged:" destination="JDa-zy-5Aj" eventType="valueChanged" id="DxB-Su-mnn"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="1" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cYF-oD-HhF">
+                                        <rect key="frame" x="115.5" y="53" width="183" height="32"/>
+                                        <color key="backgroundColor" name="bgColor"/>
+                                        <segments>
+                                            <segment title="Early Five"/>
+                                            <segment title="Early Seven"/>
+                                        </segments>
+                                        <color key="selectedSegmentTintColor" name="fgColor"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BXA-tY-oBS">
+                                        <rect key="frame" x="115.5" y="106" width="183" height="32"/>
+                                        <color key="backgroundColor" name="bgColor"/>
+                                        <segments>
+                                            <segment title="Three Rows"/>
+                                            <segment title="Six Rows"/>
+                                        </segments>
+                                        <color key="selectedSegmentTintColor" name="fgColor"/>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ZcT-mr-pb9">
+                                <rect key="frame" x="32" y="263" width="350" height="172"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHW-30-Zed">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHJ-oi-zvU">
+                                                <rect key="frame" x="0.0" y="0.0" width="301" height="31"/>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                                <color key="textColor" name="fgColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1BV-1L-fSt">
+                                                <rect key="frame" x="301" y="0.0" width="51" height="31"/>
+                                                <color key="onTintColor" name="fgColor"/>
+                                                <color key="thumbTintColor" name="bgColor"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ya-bn-9EZ">
+                                        <rect key="frame" x="0.0" y="47" width="350" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Love You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSs-Vs-pGr">
+                                                <rect key="frame" x="0.0" y="0.0" width="301" height="31"/>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                                <color key="textColor" name="fgColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="isr-qm-lge">
+                                                <rect key="frame" x="301" y="0.0" width="51" height="31"/>
+                                                <color key="onTintColor" name="fgColor"/>
+                                                <color key="thumbTintColor" name="bgColor"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1A-SU-F7g">
+                                        <rect key="frame" x="0.0" y="94" width="350" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast, Lunch, Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Tl-9M-QgM">
+                                                <rect key="frame" x="0.0" y="0.0" width="301" height="31"/>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                                <color key="textColor" name="fgColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VwS-kC-Foa">
+                                                <rect key="frame" x="301" y="0.0" width="51" height="31"/>
+                                                <color key="onTintColor" name="fgColor"/>
+                                                <color key="thumbTintColor" name="bgColor"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nlv-BG-HdX">
+                                        <rect key="frame" x="0.0" y="141" width="350" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQl-1T-N8x">
+                                                <rect key="frame" x="0.0" y="0.0" width="301" height="31"/>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                                <color key="textColor" name="fgColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cR2-th-gPq">
+                                                <rect key="frame" x="301" y="0.0" width="51" height="31"/>
+                                                <color key="onTintColor" name="fgColor"/>
+                                                <color key="thumbTintColor" name="bgColor"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7sf-kg-vRW">
+                                <rect key="frame" x="0.0" y="435" width="414" height="427"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FU0-tn-vHy">
+                                        <rect key="frame" x="183" y="190" width="48" height="47"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="9cU-Ym-INW"/>
+                                            <constraint firstAttribute="width" constant="48" id="IhY-Cd-9FL"/>
+                                        </constraints>
+                                        <color key="tintColor" name="fgColor"/>
+                                        <state key="normal" backgroundImage="arrow.right.circle" catalog="system"/>
+                                        <connections>
+                                            <action selector="createGame:" destination="JDa-zy-5Aj" eventType="touchUpInside" id="qYd-tP-qcG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="FU0-tn-vHy" firstAttribute="centerX" secondItem="7sf-kg-vRW" secondAttribute="centerX" id="EHs-YJ-cxt"/>
+                                    <constraint firstItem="FU0-tn-vHy" firstAttribute="centerX" secondItem="7sf-kg-vRW" secondAttribute="centerX" id="EWm-xI-94V"/>
+                                    <constraint firstItem="FU0-tn-vHy" firstAttribute="centerY" secondItem="7sf-kg-vRW" secondAttribute="centerY" id="HzL-8B-t05"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fxd-2J-wJK"/>
+                        <color key="backgroundColor" name="bgColor"/>
+                        <constraints>
+                            <constraint firstItem="7sf-kg-vRW" firstAttribute="leading" secondItem="fxd-2J-wJK" secondAttribute="leading" id="3yh-S6-4r4"/>
+                            <constraint firstItem="Wq8-ZH-r1v" firstAttribute="leading" secondItem="fxd-2J-wJK" secondAttribute="leading" id="42G-k3-z6i"/>
+                            <constraint firstItem="Wq8-ZH-r1v" firstAttribute="top" secondItem="fxd-2J-wJK" secondAttribute="top" constant="50" id="7Xq-ay-dPA"/>
+                            <constraint firstItem="fxd-2J-wJK" firstAttribute="trailing" secondItem="Wq8-ZH-r1v" secondAttribute="trailing" id="7Zi-cc-lXl"/>
+                            <constraint firstItem="fxd-2J-wJK" firstAttribute="trailing" secondItem="ZcT-mr-pb9" secondAttribute="trailing" constant="32" id="8VK-Q3-vTH"/>
+                            <constraint firstItem="ZcT-mr-pb9" firstAttribute="leading" secondItem="fxd-2J-wJK" secondAttribute="leading" constant="32" id="Bze-7j-Cpb"/>
+                            <constraint firstItem="fxd-2J-wJK" firstAttribute="bottom" secondItem="7sf-kg-vRW" secondAttribute="bottom" id="X38-Z1-HuR"/>
+                            <constraint firstItem="fxd-2J-wJK" firstAttribute="trailing" secondItem="7sf-kg-vRW" secondAttribute="trailing" id="l3L-g0-1YV"/>
+                            <constraint firstItem="ZcT-mr-pb9" firstAttribute="top" secondItem="Wq8-ZH-r1v" secondAttribute="bottom" constant="32" id="lNQ-Zd-4ja"/>
+                            <constraint firstItem="7sf-kg-vRW" firstAttribute="top" secondItem="ZcT-mr-pb9" secondAttribute="bottom" id="ooW-JM-Go7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blocksSwitch" destination="VwS-kC-Foa" id="5we-gc-8Th"/>
+                        <outlet property="bpSwitch" destination="1BV-1L-fSt" id="dKE-we-hDR"/>
+                        <outlet property="earlyXSegmentedControl" destination="cYF-oD-HhF" id="Wny-RI-ZWn"/>
+                        <outlet property="iLoveYouSwitch" destination="isr-qm-lge" id="AYa-0g-X40"/>
+                        <outlet property="rowsSegmentedControl" destination="BXA-tY-oBS" id="QfX-jt-Wgt"/>
+                        <outlet property="secondHouseSwitch" destination="cR2-th-gPq" id="EQq-3H-tb3"/>
+                        <outlet property="ticketsControl" destination="5pD-Jh-a3P" id="9Iq-c3-0qT"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="startGame" modalPresentationStyle="fullScreen" id="xMz-sK-DcK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZuD-Tt-3Nd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369.56521739130437" y="-585.26785714285711"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="mEi-ep-J0j">
+            <objects>
+                <viewController id="kxD-Ra-Ax7" customClass="ResultViewController" customModule="HousieGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="akM-1E-ZEq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Won - ₹80" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5O-nq-4dd">
+                                <rect key="frame" x="103.5" y="56" width="207" height="37"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="31"/>
+                                <color key="textColor" name="fgColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vya-qv-coz">
+                                <rect key="frame" x="0.0" y="123" width="414" height="685"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Sab-Yr-aGU"/>
+                        <color key="backgroundColor" name="bgColor"/>
+                        <constraints>
+                            <constraint firstItem="vya-qv-coz" firstAttribute="leading" secondItem="Sab-Yr-aGU" secondAttribute="leading" id="0GE-s2-BvP"/>
+                            <constraint firstItem="I5O-nq-4dd" firstAttribute="centerX" secondItem="akM-1E-ZEq" secondAttribute="centerX" id="4Vx-dx-mmS"/>
+                            <constraint firstItem="vya-qv-coz" firstAttribute="top" secondItem="I5O-nq-4dd" secondAttribute="bottom" constant="30" id="67X-AE-2vC"/>
+                            <constraint firstItem="Sab-Yr-aGU" firstAttribute="trailing" secondItem="vya-qv-coz" secondAttribute="trailing" id="QpJ-Ue-6xU"/>
+                            <constraint firstItem="Sab-Yr-aGU" firstAttribute="bottom" secondItem="vya-qv-coz" secondAttribute="bottom" id="frM-XP-Txp"/>
+                            <constraint firstItem="I5O-nq-4dd" firstAttribute="top" secondItem="Sab-Yr-aGU" secondAttribute="top" constant="56" id="soV-xd-JYq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gamesTable" destination="vya-qv-coz" id="zhb-cW-zZr"/>
+                        <outlet property="scoreLabel" destination="I5O-nq-4dd" id="Bmi-Ya-S3P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qcn-dU-yQq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2809" y="-586"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.right.circle" catalog="system" width="128" height="121"/>
+        <namedColor name="bgColor">
+            <color red="0.84399998188018799" green="0.97699999809265137" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="fgColor">
+            <color red="0.11100000143051147" green="0.26199999451637268" blue="0.28200000524520874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
